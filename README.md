@@ -1,15 +1,13 @@
-<p align='center'>
-    <img src='./public/preview.png' alt='Vue template - Opinionated Vite Starter Template' width='600'/>
-</p>
+![Opinionated Vite x Vue Starter Template](./public/preview.png)
 
 <p align='center'>
-    Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
+    Mocking up web app with <b>Vuetus</b>
 </p>
 
 <br>
 
 <p align='center'>
-    <a href="https://vuetus.netlify.app/">Live Demo</a>
+    <a href="https://vuetus.vercel.app/">Live Demo</a>
 </p>
 
 <br>
@@ -82,7 +80,7 @@ As this template is strongly opinionated, the following provides a curated list 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit thuongtruong109/vue-template my-vue-app
+npx degit thuongtruong109/vuetus my-vue-app
 cd my-vue-app
 npm i
 ```
