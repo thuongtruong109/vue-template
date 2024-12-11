@@ -16,7 +16,6 @@ export default defineConfig({
       eslintrc: {
         enabled: true,
       },
-      dirs: ['./src/components', './src/composables'],
     }),
   ],
   resolve: {
