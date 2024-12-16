@@ -8,8 +8,8 @@ import Logo from '@/components/Logo.vue'
   <header
     class="w-full flex justify-between md:justify-around items-center pb-4 border-b dark:border-gray-700"
   >
-    <Logo name="Vuetus" />
-    <nav class="text-center text-base flex items-center">
+    <Logo name="Vuetus" data-aos="fade-right" />
+    <nav class="text-center text-base flex items-center" data-aos="fade-left">
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
       <div class="w-[1px] h-5 !bg-gray-300 mx-4" />

@@ -8,7 +8,7 @@ const count = ref(0)
 
 <template>
   <div class="flex flex-col space-y-6">
-    <div class="flex justify-center space-x-10 py-6">
+    <div class="flex justify-center space-x-10 py-6" data-aos="fade-right">
       <a href="https://vite.dev" target="_blank">
         <img src="@/assets/imgs/vite.svg" class="logo" alt="Vite logo" width="64" height="64" />
       </a>
@@ -44,14 +44,28 @@ const count = ref(0)
       </a>
     </div>
 
-    <h1 class="font-semibold py-4 font-rowdies">{{ title }}</h1>
+    <h1 class="font-semibold py-4 font-rowdies" data-aos="fade-left">{{ title }}</h1>
 
-    <p class="text-[#888]">Click on the any logos to learn more</p>
+    <p class="text-[#888]" data-aos="fade-up">Click on the any logo to learn more</p>
 
-    <div class="counter p-6 space-x-4 flex justify-center items-center">
-      <button type="button" @click="count--">-</button>
+    <div class="counter p-6 space-x-4 flex justify-center items-center" data-aos="fade-up">
+      <button
+        type="button"
+        aria-label="Minus ounter"
+        @click="count--"
+        class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+      >
+        -
+      </button>
       <span>You click is: {{ count }}</span>
-      <button type="button" @click="count++">+</button>
+      <button
+        type="button"
+        aria-label="Added counter"
+        @click="count++"
+        class="text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+      >
+        +
+      </button>
     </div>
   </div>
 </template>

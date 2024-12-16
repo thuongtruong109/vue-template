@@ -17,36 +17,38 @@
 <br>
 
 <div align='center'>
-    <a align="center" href="https://pagespeed.web.dev/analysis/https-vuetus-vercel-app/9sw75cux50?form_factor=desktop">
+    <a align="center" href="https://pagespeed.web.dev/analysis/https-vuetus-vercel-app/pubrgtb549?form_factor=desktop">
         <img src="./public/insight.png" alt="PageSpeed" align='center'>
     </a>
 </div>
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite)
+⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite)
 
-- 📦 [Components auto importing](./src/components)
+📦 [Components auto importing](./src/components)
 
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
+🍍 [State Management via Pinia](https://pinia.vuejs.org/)
 
-- 📑 [Layout system](./src/layouts)
+📑 [Layout system](./src/layouts)
 
-- 🎨 [Tailwind](https://tailwindcss.com) - the instant on-demand atomic CSS engine
+🎨 [Tailwind](https://tailwindcss.com) - the instant on-demand atomic CSS engine
 
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-- 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
+🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
-- 🦔 [Stylelint](https://stylelint.io/) and [ESLint](https://eslint.org/) with [Prettier](https://prettier.io/) - Keep your code clean
+🦔 [Stylelint](https://stylelint.io/) and [ESLint](https://eslint.org/) with [Prettier](https://prettier.io/) - Keep your code clean
 
-- 🦾 TypeScript, of course
+🦾 TypeScript, of course
 
-- ☁️ Deploy on [Netlify](https://netlify.com), zero-config
+☁️ Deploy on [Netlify](https://netlify.com), zero-config
 
-- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+📲 [PWA](https://github.com/antfu/vite-plugin-pwa) - offline working mode
+
+🌊 [AOS](https://www.npmjs.com/package/aos) - animation package
 
 <!-- - 🗂 [File based routing](./src/pages) -->
 
@@ -56,16 +58,16 @@
 
 ### Dev tools
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
-- [Cypress](https://cypress.io/) - E2E testing
 - [Npm](https://npmjs.com/) - efficient package manager
 - [Netlify](https://www.netlify.com/) - zero-config deployment
-- [VS Code Extensions](./.vscode/extensions.json)
+- [Stackblitz](https://stackblitz.com/github/thuongtruong109/vuetus) - online IDE for editing and previewing web apps
+- [VS Code Extensions](./.vscode/extensions.json) - recommended extensions for VS Code
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling
 - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
 
 ## Why
 
