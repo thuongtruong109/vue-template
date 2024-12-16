@@ -10,19 +10,37 @@ const count = ref(0)
   <div class="flex flex-col space-y-6">
     <div class="flex justify-center space-x-10 py-6">
       <a href="https://vite.dev" target="_blank">
-        <img src="@/assets/imgs/vite.svg" class="logo" alt="Vite logo" />
+        <img src="@/assets/imgs/vite.svg" class="logo" alt="Vite logo" width="64" height="64" />
       </a>
       <a href="https://vuejs.org/" target="_blank">
-        <img src="@/assets/imgs/vue.svg" class="logo vue" alt="Vue logo" />
+        <img src="@/assets/imgs/vue.svg" class="logo vue" alt="Vue logo" width="64" height="64" />
       </a>
       <a href="https://pinia.vuejs.org/" target="_blank">
-        <img src="@/assets/imgs/pinia.svg" class="logo pinia" alt="Pinia logo" />
+        <img
+          src="@/assets/imgs/pinia.svg"
+          class="logo pinia"
+          alt="Pinia logo"
+          width="64"
+          height="64"
+        />
       </a>
       <a href="https://tailwindcss.com/" target="_blank">
-        <img src="@/assets/imgs/tailwind.svg" class="logo tailwind" alt="Tailwind logo" />
+        <img
+          src="@/assets/imgs/tailwind.svg"
+          class="logo tailwind"
+          alt="Tailwind logo"
+          width="64"
+          height="64"
+        />
       </a>
       <a href="https://www.typescriptlang.org/" target="_blank">
-        <img src="@/assets/imgs/typescript.svg" class="logo typescript" alt="Typescript logo" />
+        <img
+          src="@/assets/imgs/typescript.svg"
+          class="logo typescript"
+          alt="Typescript logo"
+          width="64"
+          height="64"
+        />
       </a>
     </div>
 

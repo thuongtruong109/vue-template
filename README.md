@@ -16,6 +16,12 @@
 
 <br>
 
+<div align='center'>
+    <a align="center" href="https://pagespeed.web.dev/analysis/https-vuetus-vercel-app/9sw75cux50?form_factor=desktop">
+        <img src="./public/insight.png" alt="PageSpeed" align='center'>
+    </a>
+</div>
+
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite)

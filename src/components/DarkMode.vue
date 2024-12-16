@@ -6,6 +6,7 @@ const { currentTheme, switchTheme } = useTheme()
 
 <template>
   <button
+    type="button"
     class="overflow-hidden p-2 text-gray-500 dark:text-gray-300 bg-yellow-600/10 dark:bg-gray-700"
     @click="switchTheme()"
   >
