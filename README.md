@@ -1,13 +1,13 @@
 ![Opinionated Vite x Vue Starter Template](./public/preview.png)
 
 <p align='center'>
-    Mocking up web app with <b>Vuetus</b>
+    Mocking up web app with <b><a href="https://github.com/thuongtruong109/vue-template/generate">Vuetus</a></b>
 </p>
 
 <br>
 
 <p align='center'>
-    <a href="https://vuetus.vercel.app/">Live Demo</a>
+    <a href="https://vuetus.vercel.app/">🪟 Live Demo</a>
 </p>
 
 <br>
@@ -40,9 +40,9 @@
 
 - ☁️ Deploy on [Netlify](https://netlify.com), zero-config
 
-<!-- - 🗂 [File based routing](./src/pages) -->
+- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-<!-- - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa) -->
+<!-- - 🗂 [File based routing](./src/pages) -->
 
 <!-- - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions) -->
 
@@ -107,6 +107,8 @@ Just run and visit http://localhost:5173
 ```bash
 npm run dev
 ```
+
+[![Open in Stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/thuongtruong109/vuetus/tree/main/?file=.stackblitzrc)
 
 ### Build
 

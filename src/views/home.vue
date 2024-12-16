@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import Starter from '@/components/Starter.vue'
+</script>
+
 <template>
   <div class="py-40 text-center">
-    <h5>[This is an home page content]</h5>
+    <Starter title="Vue starter template" />
   </div>
 </template>

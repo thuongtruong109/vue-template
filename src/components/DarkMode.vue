@@ -6,7 +6,7 @@ const { currentTheme, switchTheme } = useTheme()
 
 <template>
   <button
-    class="overflow-hidden p-2 text-gray-500 dark:text-gray-300 bg-white dark:bg-gray-700"
+    class="overflow-hidden p-2 text-gray-500 dark:text-gray-300 bg-yellow-600/10 dark:bg-gray-700"
     @click="switchTheme()"
   >
     <transition
@@ -29,7 +29,7 @@ const { currentTheme, switchTheme } = useTheme()
       <svg
         v-if="currentTheme === 'dark'"
         xmlns="http://www.w3.org/2000/svg"
-        class="size-6"
+        class="size-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -45,7 +45,7 @@ const { currentTheme, switchTheme } = useTheme()
       <svg
         v-else
         xmlns="http://www.w3.org/2000/svg"
-        class="size-6"
+        class="size-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

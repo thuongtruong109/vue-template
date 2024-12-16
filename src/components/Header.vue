@@ -1,21 +1,25 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 import DarkMode from '@/components/DarkMode.vue'
+import Logo from '@/components/Logo.vue'
 </script>
 
 <template>
-  <nav
-    class="text-center w-full text-base mt-4 pt-4 border-t dark:border-gray-600 flex justify-center items-center"
+  <header
+    class="w-full flex justify-between md:justify-around items-center pb-4 border-b dark:border-gray-700"
   >
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-    <div class="w-[1px] h-5 !bg-gray-300 mx-4" />
-    <DarkMode />
-  </nav>
+    <Logo name="Vuetus" />
+    <nav class="text-center text-base flex items-center">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <div class="w-[1px] h-5 !bg-gray-300 mx-4" />
+      <DarkMode />
+    </nav>
+  </header>
 </template>
 
 <style scoped>
-nav a {
+header nav a {
   display: inline-block;
   padding: 0.25rem 1.5rem;
   color: inherit;
@@ -23,7 +27,7 @@ nav a {
   border-radius: 4px;
 }
 
-nav a.router-link-exact-active {
+header nav a.router-link-exact-active {
   color: #646cff;
   font-weight: 600;
   background-color: #646cff11;

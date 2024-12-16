@@ -1,9 +1,13 @@
 {
   "name": "vuetus",
-  "description": "Opinionated Vite x Vue Starter Template",
+  "description": "Opinionated Vue Starter Template",
   "author": {
     "name": "Tran Nguyen Thuong Truong",
     "email": "thuongtruong@proton.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thuongtruong109/vuetus.git"
   },
   "license": "MIT",
   "version": "0.1.0",
@@ -20,6 +24,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vue/cli-plugin-pwa": "^5.0.8",
     "pinia": "^2.2.6",
     "vue": "^3.5.13",
     "vue-router": "^4.4.5"

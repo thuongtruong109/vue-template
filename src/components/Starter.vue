@@ -18,7 +18,7 @@ const count = ref(0)
       <a href="https://pinia.vuejs.org/" target="_blank">
         <img src="@/assets/imgs/pinia.svg" class="logo pinia" alt="Pinia logo" />
       </a>
-      <a href="https://tailwind.com/" target="_blank">
+      <a href="https://tailwindcss.com/" target="_blank">
         <img src="@/assets/imgs/tailwind.svg" class="logo tailwind" alt="Tailwind logo" />
       </a>
       <a href="https://www.typescriptlang.org/" target="_blank">
@@ -28,13 +28,13 @@ const count = ref(0)
 
     <h1 class="font-semibold py-4 font-rowdies">{{ title }}</h1>
 
+    <p class="text-[#888]">Click on the any logos to learn more</p>
+
     <div class="counter p-6 space-x-4 flex justify-center items-center">
       <button type="button" @click="count--">-</button>
       <span>You click is: {{ count }}</span>
       <button type="button" @click="count++">+</button>
     </div>
-
-    <p class="text-[#888]">Click on the Vite and Vue logos to learn more</p>
   </div>
 </template>
 
