@@ -1,0 +1,54 @@
+*                 text=auto
+
+*.css             text diff=css
+*.html            text diff=html
+*.js              text
+*.mjs             text
+*.cjs             text
+*.json            text
+*.sass            text
+*.ts              text
+
+*.md              text diff=markdown
+*.txt             text
+AUTHORS           text
+CHANGELOG         text
+CONTRIBUTING      text
+LICENSE           text
+*README*          text
+
+*.vue             text
+
+*.conf            text
+*.config          text
+.editorconfig     text
+.env              text
+.gitattributes    text
+.gitconfig        text
+.htaccess         text
+*.lock            text -diff
+package.json      text eol=lf
+package-lock.json text eol=lf -diff
+pnpm-lock.yaml    text eol=lf -diff
+.prettierrc       text
+*.yml             text
+browserslist      text
+tsconfig.json     linguist-language=JSON-with-Comments
+
+*.ico             binary
+*.jpg             binary
+*.jpeg            binary
+*.png             binary
+
+*.svg             text
+*.tiff            binary
+*.webp            binary
+
+*.ttf             binary
+*.eot             binary
+*.otf             binary
+*.woff            binary
+*.woff2           binary
+
+*.*ignore         text
+dist/*            binary

@@ -22,7 +22,7 @@
     </a>
 </div>
 
-## Features
+## ✨ Features
 
 ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite)
 
@@ -34,7 +34,7 @@
 
 🎨 [Tailwind](https://tailwindcss.com) - the instant on-demand atomic CSS engine
 
-😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+😃 [Vue Icons Plus](https://vue-icons.com/icons/) - simple icons package for Vue
 
 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
@@ -56,7 +56,7 @@
 
 <br>
 
-### Dev tools
+## 🪶 Dev tools
 
 - [Npm](https://npmjs.com/) - efficient package manager
 - [Netlify](https://www.netlify.com/) - zero-config deployment
@@ -69,21 +69,21 @@
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
 
-## Why
+## 💡 Why
 
 I have created several Vite apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
 
 So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. It's strongly opinionated, but feel free to tweak it or even maintain your own forks.
 
-## Variations
+## 🕯️ Variations
 
 As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
 
-### GitHub Template
+### 🍃 GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/thuongtruong109/vue-template/generate).
 
-### Clone to local
+### 🎫 Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
@@ -93,7 +93,7 @@ cd my-vue-app
 npm i
 ```
 
-## Checklist
+## 📃 Checklist
 
 When you use this template, try follow the checklist to update your info properly
 
@@ -106,19 +106,23 @@ When you use this template, try follow the checklist to update your info properl
 
 And, enjoy :)
 
-## Usage
+## 🧑‍💻 Usage
 
-### Development
+### 1. Development
 
-Just run and visit http://localhost:5173
+- **Local**: Just run and visit http://localhost:5173
 
 ```bash
 npm run dev
 ```
 
-[![Open in Stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/thuongtruong109/vuetus/tree/main/?file=.stackblitzrc)
+- **Web online**: Online IDE for editing and previewing web apps
 
-### Build
+[![Open in Stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/thuongtruong109/vuetus/tree/main/?file=.stackblitzrc)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/thuongtruong109/vuetus)<!-- https://codesandbox.io/p/devbox/github/thuongtruong109/vuetus -->
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thuongtruong109/vuetus)
+
+### 2. Build
 
 To build the App, run
 
@@ -128,8 +132,16 @@ npm run build
 
 And you will see the generated file in `dist` that ready to be served.
 
-### Deploy on Netlify
+### 3. Deploy
+
+- Using Netlify
 
 Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
 
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thuongtruong109/vuetus)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thuongtruong109/vuetus)
+
+- Using Vercel
+
+Go to [Vercel](https://vercel.com/new) and select your clone, `OK` along the way, and your App will be live in a minute.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%thuongtruong109%vuetus)
