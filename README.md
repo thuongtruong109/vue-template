@@ -17,7 +17,7 @@
 <br>
 
 <div align='center'>
-    <a align="center" href="https://pagespeed.web.dev/analysis/https-vuetus-vercel-app/pubrgtb549?form_factor=desktop">
+    <a align="center" href="https://pagespeed.web.dev/analysis/https-vuetus-vercel-app/ukjcyufeqf?form_factor=desktop">
         <img src="./public/insight.png" alt="PageSpeed" align='center'>
     </a>
 </div>
@@ -50,7 +50,7 @@
 
 🌊 [AOS](https://www.npmjs.com/package/aos) - animation package
 
-<!-- - 🗂 [File based routing](./src/pages) -->
+🗂 [File based routing](./src/pages) with [unplugin-vue-router](https://github.com/posva/unplugin-vue-router)
 
 <!-- - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions) -->
 
